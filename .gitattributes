@@ -1,0 +1,4 @@
+# Preserve audited bytes, including original newlines, on every platform.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.pdf binary
+*.png binary

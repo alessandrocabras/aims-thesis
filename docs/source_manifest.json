@@ -1,0 +1,456 @@
+{
+  "scope": "Reviewer repository; event-level derived data included by explicit owner request",
+  "excluded": [
+    "raw telemetry",
+    "control logs",
+    "DAT files",
+    "FEM workbooks and labels",
+    "serialized model weights",
+    "third-party repository",
+    "draft manuscripts"
+  ],
+  "files": [
+    {
+      "path": "src/__init__.py",
+      "source_sha256": "df4b80919b168cd67ede6246fa95118e1348627a3a0561294a656e923e4356a9",
+      "release_sha256": "68ef3e76c991b0c55c99e08ef660c1085e0350ce35b1692e465d008207093826",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:df4b80919b168cd67ede6246fa95118e1348627a3a0561294a656e923e4356a9"
+    },
+    {
+      "path": "src/aims_pipeline.py",
+      "source_sha256": "77edbb2802f73534eb89ec57448bb2612932aa49de3e455d44942bef09801641",
+      "release_sha256": "13db73c0f814c5776c3a5edc153e0013a9784d7ecfccba9d0bab1ebb27dd938c",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:77edbb2802f73534eb89ec57448bb2612932aa49de3e455d44942bef09801641"
+    },
+    {
+      "path": "src/aims_training.py",
+      "source_sha256": "28d61db3b967b4aa38ebf5af6c0ec3490fd519a74d215bfdfc636c350661c0f4",
+      "release_sha256": "7f687f98dea36ada4cb86ff51f78fe762aa8c66411d5384215ebdcf657272d88",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:28d61db3b967b4aa38ebf5af6c0ec3490fd519a74d215bfdfc636c350661c0f4"
+    },
+    {
+      "path": "src/fem_v2_labels.py",
+      "source_sha256": "1708ea1917bee9a7a20405674d7732899f5b5629c67b69353a9e7edd863d0b20",
+      "release_sha256": "1708ea1917bee9a7a20405674d7732899f5b5629c67b69353a9e7edd863d0b20",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:1708ea1917bee9a7a20405674d7732899f5b5629c67b69353a9e7edd863d0b20"
+    },
+    {
+      "path": "scripts/audit/audit_control_crossscan.py",
+      "source_sha256": "f1ee9b9ebd8d3e2777f22f947e98e42dacbefc65650be62f2d00ad74712f1535",
+      "release_sha256": "f1ee9b9ebd8d3e2777f22f947e98e42dacbefc65650be62f2d00ad74712f1535",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:f1ee9b9ebd8d3e2777f22f947e98e42dacbefc65650be62f2d00ad74712f1535"
+    },
+    {
+      "path": "scripts/audit/summarize_additional_dat_crossscans.py",
+      "source_sha256": "e34ed8fb856dbfd9b8e0879ad3e8b462a4030e8989378424209a56aa56fb7472",
+      "release_sha256": "e34ed8fb856dbfd9b8e0879ad3e8b462a4030e8989378424209a56aa56fb7472",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:e34ed8fb856dbfd9b8e0879ad3e8b462a4030e8989378424209a56aa56fb7472"
+    },
+    {
+      "path": "scripts/prepare_final_dataset.py",
+      "source_sha256": "b0270d19b863f39e54aa32a2619326a45ff0aa22d0fcca0545a3031534a37b02",
+      "release_sha256": "8dce938bfdf0f4cf91372386ba278c2aff090307a448fe16f38691d384484914",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:b0270d19b863f39e54aa32a2619326a45ff0aa22d0fcca0545a3031534a37b02"
+    },
+    {
+      "path": "data/processed/aims_clean_features.csv",
+      "source_sha256": "d77e5b4b5e425fce8e56de1d1efc4e7164d8eb4a7c1b16b890fe8725f4b3e5c0",
+      "release_sha256": "d77e5b4b5e425fce8e56de1d1efc4e7164d8eb4a7c1b16b890fe8725f4b3e5c0",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:d77e5b4b5e425fce8e56de1d1efc4e7164d8eb4a7c1b16b890fe8725f4b3e5c0"
+    },
+    {
+      "path": "data/processed/aims_clean_features_report.json",
+      "source_sha256": "812bffb690754bfcbc939a1dd41a49c4bda09feb653d223f67793bd1f317de1f",
+      "release_sha256": "812bffb690754bfcbc939a1dd41a49c4bda09feb653d223f67793bd1f317de1f",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:812bffb690754bfcbc939a1dd41a49c4bda09feb653d223f67793bd1f317de1f"
+    },
+    {
+      "path": "results/reference/final_metrics.csv",
+      "source_sha256": "e212e570a95ace639bb04ba7359b28f39d98ad158d3ff3f84e7e07ad79c4b85b",
+      "release_sha256": "e212e570a95ace639bb04ba7359b28f39d98ad158d3ff3f84e7e07ad79c4b85b",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:e212e570a95ace639bb04ba7359b28f39d98ad158d3ff3f84e7e07ad79c4b85b"
+    },
+    {
+      "path": "results/reference/final_metrics_by_elevation.csv",
+      "source_sha256": "cc28463381ac53f296e2969a71f3321d66b6f4ed184c46d6270982f27582c941",
+      "release_sha256": "cc28463381ac53f296e2969a71f3321d66b6f4ed184c46d6270982f27582c941",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:cc28463381ac53f296e2969a71f3321d66b6f4ed184c46d6270982f27582c941"
+    },
+    {
+      "path": "results/reference/final_metrics_by_receiver.csv",
+      "source_sha256": "c07693b42b70e7da4434f1f11e6ca0ae58b09a95393afa6c78af64cb8c7e0d4a",
+      "release_sha256": "c07693b42b70e7da4434f1f11e6ca0ae58b09a95393afa6c78af64cb8c7e0d4a",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:c07693b42b70e7da4434f1f11e6ca0ae58b09a95393afa6c78af64cb8c7e0d4a"
+    },
+    {
+      "path": "results/reference/final_predictions.csv",
+      "source_sha256": "a6aaf6772db58bc637684a5ad063fc487eae053a9412f25a0cda90f4d0a64f51",
+      "release_sha256": "a6aaf6772db58bc637684a5ad063fc487eae053a9412f25a0cda90f4d0a64f51",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:a6aaf6772db58bc637684a5ad063fc487eae053a9412f25a0cda90f4d0a64f51"
+    },
+    {
+      "path": "notebooks/experiments/10_real_data_baselines_and_diagnostics.ipynb",
+      "source_sha256": "97018ddb68ce32f33c47bc788afc8cb921dbe239f2dc2b25c0a88fc902ed4e21",
+      "release_sha256": "d3a2d7ee031de60c2be416cf4595547f63098c35a3bd7ce69df66310b208b46d",
+      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:97018ddb68ce32f33c47bc788afc8cb921dbe239f2dc2b25c0a88fc902ed4e21"
+    },
+    {
+      "path": "notebooks/experiments/20_fem_real_calibration_and_domain_shift.ipynb",
+      "source_sha256": "61b4a12174b830357e0fb96e1d12d3323194ab9629ab34565f5ded68e48c69a5",
+      "release_sha256": "09ff130ffa7537f7f3b2ab76ec74266715ac4d415ebcbc5fbb8135b390178e5a",
+      "operation": "strip notebook outputs/metadata and annotate",
+      "source_id": "sha256:61b4a12174b830357e0fb96e1d12d3323194ab9629ab34565f5ded68e48c69a5"
+    },
+    {
+      "path": "notebooks/experiments/30_control_logs_true_xel_and_receiver_audit.ipynb",
+      "source_sha256": "ccb7e8561d304e8b45ecd25c75a1328ab0007cabcfefe028b648420b2f045ad5",
+      "release_sha256": "cafc915c962552d3fcf7347c329a0d53d54766e087327ffaacbaac15fb057007",
+      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:ccb7e8561d304e8b45ecd25c75a1328ab0007cabcfefe028b648420b2f045ad5"
+    },
+    {
+      "path": "notebooks/experiments/40_fem_transfer_and_real_ssl.ipynb",
+      "source_sha256": "e3ea95a16bff497c0789bd232a881d7a1bdb8f8023785383de4d84b9cd699aca",
+      "release_sha256": "c67996331dc28998a1facbaa65aad21c837201c4be88323ec6a2f45d84c4a362",
+      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:e3ea95a16bff497c0789bd232a881d7a1bdb8f8023785383de4d84b9cd699aca"
+    },
+    {
+      "path": "notebooks/experiments/41_fem_v2_nested_cv_controls.ipynb",
+      "source_sha256": "2417a224cea45e20a4ac090ba76fdb47ee5fd799c44baa6c0910675ea72e8499",
+      "release_sha256": "12ff0498bdce61c237c3c75aa2f7b761bb435e2fc56dc6fce7944c603eedcf99",
+      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:2417a224cea45e20a4ac090ba76fdb47ee5fd799c44baa6c0910675ea72e8499"
+    },
+    {
+      "path": "notebooks/restricted/00_prepare_final_dataset.ipynb",
+      "source_sha256": "59e1c8c2036b01f9ffc478e6297f84e8fa3e29d487a22c35f48055a46f29da80",
+      "release_sha256": "48c8baa620c1f7dcee4514c111f17bc64a94ed1f087f427e25d96b6bfec62f12",
+      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:59e1c8c2036b01f9ffc478e6297f84e8fa3e29d487a22c35f48055a46f29da80"
+    },
+    {
+      "path": "thesis_figures/make_thesis_figures.py",
+      "source_sha256": "93d269a44aea9ed3a7b6cd76220498513f5d48490210023e15a835f95a2c8453",
+      "release_sha256": "ca743eba351f3e87d1bee4d302befd65d23b250ec0a49207c2e971fb764fa5f2",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:93d269a44aea9ed3a7b6cd76220498513f5d48490210023e15a835f95a2c8453"
+    },
+    {
+      "path": "thesis_figures/verify_figures.py",
+      "source_sha256": "3d037b010debd4a79914505ba2700808d39ad2de6353e2d9fa2d688ef8647865",
+      "release_sha256": "3d037b010debd4a79914505ba2700808d39ad2de6353e2d9fa2d688ef8647865",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:3d037b010debd4a79914505ba2700808d39ad2de6353e2d9fa2d688ef8647865"
+    },
+    {
+      "path": "thesis_figures/requirements.txt",
+      "source_sha256": "bde68ffcfb53dd010e2ca394340aee83803b9f8e90ecfb32b1c600cd4d3db081",
+      "release_sha256": "bde68ffcfb53dd010e2ca394340aee83803b9f8e90ecfb32b1c600cd4d3db081",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:bde68ffcfb53dd010e2ca394340aee83803b9f8e90ecfb32b1c600cd4d3db081"
+    },
+    {
+      "path": "thesis_figures/00_generate_thesis_figures.ipynb",
+      "source_sha256": "e08a562015c914f51c51d76ecf5540869362df33c92d71bea8e34b3d864cd12f",
+      "release_sha256": "f866de4a543fa0444e7f00fdeb86cfeb4460bf92ab230a9f646430cbb143b2e9",
+      "operation": "strip notebook outputs/metadata and annotate",
+      "source_id": "sha256:e08a562015c914f51c51d76ecf5540869362df33c92d71bea8e34b3d864cd12f"
+    },
+    {
+      "path": "thesis_figures/generation_manifest.json",
+      "source_sha256": "b8bbe92136f276822efd783776dec3fa7e783e47b4e36635ece9a3d507408813",
+      "release_sha256": "cc0b62d366a7af00e1ea99c49ddfd74b89618eafacd21d5aa1937f584c7a9183",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:b8bbe92136f276822efd783776dec3fa7e783e47b4e36635ece9a3d507408813"
+    },
+    {
+      "path": "thesis_figures/00_contact_sheet.png",
+      "source_sha256": "4ff7330527c6ca4425d435faeaf461590f5cb81ccb139326037f36005e211fe9",
+      "release_sha256": "4ff7330527c6ca4425d435faeaf461590f5cb81ccb139326037f36005e211fe9",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:4ff7330527c6ca4425d435faeaf461590f5cb81ccb139326037f36005e211fe9"
+    },
+    {
+      "path": "thesis_figures/01_target_coordinate_audit.pdf",
+      "source_sha256": "74437b08d8d22a652398caec7e7f2f39599c888760e5cbfe3d44ed6f29729837",
+      "release_sha256": "74437b08d8d22a652398caec7e7f2f39599c888760e5cbfe3d44ed6f29729837",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:74437b08d8d22a652398caec7e7f2f39599c888760e5cbfe3d44ed6f29729837"
+    },
+    {
+      "path": "thesis_figures/02_final_data_pipeline.pdf",
+      "source_sha256": "fc0f219f582a453b44a4931c42394d31c93e9a4024cc77162a65cca727292f70",
+      "release_sha256": "fc0f219f582a453b44a4931c42394d31c93e9a4024cc77162a65cca727292f70",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:fc0f219f582a453b44a4931c42394d31c93e9a4024cc77162a65cca727292f70"
+    },
+    {
+      "path": "thesis_figures/04_final_prediction_pipeline_parallel.pdf",
+      "source_sha256": "1302264bf2b4861f28d413679670a56a06c5fd2a12680c5bda4b231374718dab",
+      "release_sha256": "1302264bf2b4861f28d413679670a56a06c5fd2a12680c5bda4b231374718dab",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:1302264bf2b4861f28d413679670a56a06c5fd2a12680c5bda4b231374718dab"
+    },
+    {
+      "path": "thesis_figures/07_mae_by_receiver.pdf",
+      "source_sha256": "960807963e292876543475c3015a7f11f1f3a31cd5cc04caa41638eff6c33bcc",
+      "release_sha256": "960807963e292876543475c3015a7f11f1f3a31cd5cc04caa41638eff6c33bcc",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:960807963e292876543475c3015a7f11f1f3a31cd5cc04caa41638eff6c33bcc"
+    },
+    {
+      "path": "thesis_figures/09_el_residual_vs_elevation.pdf",
+      "source_sha256": "0c9685c94eb61afd1a4af6f60e3bc02af1d51e1903109d6be45608cadcf08c45",
+      "release_sha256": "0c9685c94eb61afd1a4af6f60e3bc02af1d51e1903109d6be45608cadcf08c45",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:0c9685c94eb61afd1a4af6f60e3bc02af1d51e1903109d6be45608cadcf08c45"
+    },
+    {
+      "path": "thesis_figures/10_fem_real_thermal_shift.pdf",
+      "source_sha256": "69d19aa1b71de6bb7d97a3ad3d659578a18e68c15066c289f8150edb7eff557d",
+      "release_sha256": "69d19aa1b71de6bb7d97a3ad3d659578a18e68c15066c289f8150edb7eff557d",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:69d19aa1b71de6bb7d97a3ad3d659578a18e68c15066c289f8150edb7eff557d"
+    },
+    {
+      "path": "thesis_figures/12_selective_confidence_curve.pdf",
+      "source_sha256": "c9cc0408d75b35dff9afc6bd09754d9f87f980249eea08992682a18b3bdb5d8c",
+      "release_sha256": "c9cc0408d75b35dff9afc6bd09754d9f87f980249eea08992682a18b3bdb5d8c",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:c9cc0408d75b35dff9afc6bd09754d9f87f980249eea08992682a18b3bdb5d8c"
+    },
+    {
+      "path": "thesis_figures/13_dataset_timeline.pdf",
+      "source_sha256": "24a2022879bd83509fb4ab51767ec8c02c55180ec9de9e17b76a05f00ff21551",
+      "release_sha256": "24a2022879bd83509fb4ab51767ec8c02c55180ec9de9e17b76a05f00ff21551",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:24a2022879bd83509fb4ab51767ec8c02c55180ec9de9e17b76a05f00ff21551"
+    },
+    {
+      "path": "thesis_figures/14_temporal_evaluation_design.pdf",
+      "source_sha256": "872c74da415a693d79b4c68c9bbc13090e20c8b51f4d5f444f240fab71d110de",
+      "release_sha256": "872c74da415a693d79b4c68c9bbc13090e20c8b51f4d5f444f240fab71d110de",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:872c74da415a693d79b4c68c9bbc13090e20c8b51f4d5f444f240fab71d110de"
+    },
+    {
+      "path": "thesis_figures/15_matched_transfer_protocol.pdf",
+      "source_sha256": "4e0e756d0a360bf5c19184338ab58dee193fb926c5cbb4f6a77c418d19dca818",
+      "release_sha256": "4e0e756d0a360bf5c19184338ab58dee193fb926c5cbb4f6a77c418d19dca818",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:4e0e756d0a360bf5c19184338ab58dee193fb926c5cbb4f6a77c418d19dca818"
+    },
+    {
+      "path": "thesis_figures/16_fem_transfer_controls.pdf",
+      "source_sha256": "898f5c40dbb43968afb9eaa8c83b8bb71ffdb98bfb0f33a51a2feaa7972d89fa",
+      "release_sha256": "898f5c40dbb43968afb9eaa8c83b8bb71ffdb98bfb0f33a51a2feaa7972d89fa",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:898f5c40dbb43968afb9eaa8c83b8bb71ffdb98bfb0f33a51a2feaa7972d89fa"
+    },
+    {
+      "path": "thesis_figures/17_observed_vs_predicted.pdf",
+      "source_sha256": "189d0be3ca2b1bdf2c2c4a69d2cbcfcb875192847c61cd2d0c6e5f8f9d6b3ad6",
+      "release_sha256": "189d0be3ca2b1bdf2c2c4a69d2cbcfcb875192847c61cd2d0c6e5f8f9d6b3ad6",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:189d0be3ca2b1bdf2c2c4a69d2cbcfcb875192847c61cd2d0c6e5f8f9d6b3ad6"
+    },
+    {
+      "path": "thesis_figures/18_absolute_error_ecdf.pdf",
+      "source_sha256": "fbf706d2d09dbc695969a5597b15a84845a7491a5ab8ed5ef838d0d531e9b2d0",
+      "release_sha256": "fbf706d2d09dbc695969a5597b15a84845a7491a5ab8ed5ef838d0d531e9b2d0",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:fbf706d2d09dbc695969a5597b15a84845a7491a5ab8ed5ef838d0d531e9b2d0"
+    },
+    {
+      "path": "thesis_figures/01_target_coordinate_audit.png",
+      "source_sha256": "76941b4444f35fb77ad5a849d4e8cf1d8bba1e4c548b02cfa5697137331a8622",
+      "release_sha256": "76941b4444f35fb77ad5a849d4e8cf1d8bba1e4c548b02cfa5697137331a8622",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:76941b4444f35fb77ad5a849d4e8cf1d8bba1e4c548b02cfa5697137331a8622"
+    },
+    {
+      "path": "thesis_figures/02_final_data_pipeline.png",
+      "source_sha256": "9a152d94c009d447014200e018571f2ba85fa1c658798311e6cb4a9b33ecadc7",
+      "release_sha256": "9a152d94c009d447014200e018571f2ba85fa1c658798311e6cb4a9b33ecadc7",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:9a152d94c009d447014200e018571f2ba85fa1c658798311e6cb4a9b33ecadc7"
+    },
+    {
+      "path": "thesis_figures/04_final_prediction_pipeline_parallel.png",
+      "source_sha256": "77c2b2dcb261a7fae6cb70446e2b2ea1506db9e15068903eb3823a29513ab3f8",
+      "release_sha256": "77c2b2dcb261a7fae6cb70446e2b2ea1506db9e15068903eb3823a29513ab3f8",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:77c2b2dcb261a7fae6cb70446e2b2ea1506db9e15068903eb3823a29513ab3f8"
+    },
+    {
+      "path": "thesis_figures/07_mae_by_receiver.png",
+      "source_sha256": "7364f5a446a5243043dfb9887a9e307df09fed23ade3891eb47a35a2e1509b9b",
+      "release_sha256": "7364f5a446a5243043dfb9887a9e307df09fed23ade3891eb47a35a2e1509b9b",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:7364f5a446a5243043dfb9887a9e307df09fed23ade3891eb47a35a2e1509b9b"
+    },
+    {
+      "path": "thesis_figures/09_el_residual_vs_elevation.png",
+      "source_sha256": "1d830bcc465475aedc2e55d4103fb39c570f4ee827fce262377ae476ce1cd30a",
+      "release_sha256": "1d830bcc465475aedc2e55d4103fb39c570f4ee827fce262377ae476ce1cd30a",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:1d830bcc465475aedc2e55d4103fb39c570f4ee827fce262377ae476ce1cd30a"
+    },
+    {
+      "path": "thesis_figures/10_fem_real_thermal_shift.png",
+      "source_sha256": "269e30ed8079fa25b4daa394e3d324f51bf11d3e2a241f73e37283aff33ac30a",
+      "release_sha256": "269e30ed8079fa25b4daa394e3d324f51bf11d3e2a241f73e37283aff33ac30a",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:269e30ed8079fa25b4daa394e3d324f51bf11d3e2a241f73e37283aff33ac30a"
+    },
+    {
+      "path": "thesis_figures/12_selective_confidence_curve.png",
+      "source_sha256": "668e5533edb86a251cc384ae7f60ca3008f042f3ad00696ad5c7f0c2a0afd698",
+      "release_sha256": "668e5533edb86a251cc384ae7f60ca3008f042f3ad00696ad5c7f0c2a0afd698",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:668e5533edb86a251cc384ae7f60ca3008f042f3ad00696ad5c7f0c2a0afd698"
+    },
+    {
+      "path": "thesis_figures/13_dataset_timeline.png",
+      "source_sha256": "14149ea70ddbc0dec98661b41127663d8b79ef69a5c308fdcbfc7a90104b3687",
+      "release_sha256": "14149ea70ddbc0dec98661b41127663d8b79ef69a5c308fdcbfc7a90104b3687",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:14149ea70ddbc0dec98661b41127663d8b79ef69a5c308fdcbfc7a90104b3687"
+    },
+    {
+      "path": "thesis_figures/14_temporal_evaluation_design.png",
+      "source_sha256": "2081c5b4c95eb06efe17082d5dbc0e45e4411cc7b5495f6b8615bc7dd87672bf",
+      "release_sha256": "2081c5b4c95eb06efe17082d5dbc0e45e4411cc7b5495f6b8615bc7dd87672bf",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:2081c5b4c95eb06efe17082d5dbc0e45e4411cc7b5495f6b8615bc7dd87672bf"
+    },
+    {
+      "path": "thesis_figures/15_matched_transfer_protocol.png",
+      "source_sha256": "410f5e38fa903f807f1b367cd6a9310da24fc49397b94e04cc9d42579207d89a",
+      "release_sha256": "410f5e38fa903f807f1b367cd6a9310da24fc49397b94e04cc9d42579207d89a",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:410f5e38fa903f807f1b367cd6a9310da24fc49397b94e04cc9d42579207d89a"
+    },
+    {
+      "path": "thesis_figures/16_fem_transfer_controls.png",
+      "source_sha256": "97388e067c0bdeadc5265f088fdb40461d26651f323a0a266da084a3cf21a1c9",
+      "release_sha256": "97388e067c0bdeadc5265f088fdb40461d26651f323a0a266da084a3cf21a1c9",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:97388e067c0bdeadc5265f088fdb40461d26651f323a0a266da084a3cf21a1c9"
+    },
+    {
+      "path": "thesis_figures/17_observed_vs_predicted.png",
+      "source_sha256": "2f9d929bd25f6a5ed4fc09a71776109f3f786dbf1e1fb0213acf2ca4c9875bc2",
+      "release_sha256": "2f9d929bd25f6a5ed4fc09a71776109f3f786dbf1e1fb0213acf2ca4c9875bc2",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:2f9d929bd25f6a5ed4fc09a71776109f3f786dbf1e1fb0213acf2ca4c9875bc2"
+    },
+    {
+      "path": "thesis_figures/18_absolute_error_ecdf.png",
+      "source_sha256": "4ae18d2bfab1084c74cbfeb44ab74d14ac059ee58b2499203800c1978d0b499d",
+      "release_sha256": "4ae18d2bfab1084c74cbfeb44ab74d14ac059ee58b2499203800c1978d0b499d",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:4ae18d2bfab1084c74cbfeb44ab74d14ac059ee58b2499203800c1978d0b499d"
+    },
+    {
+      "path": "thesis_figures/source_data/dataset_events.csv",
+      "source_sha256": "04d34bc8016b2e98d6bf15ef4dd4242ad3082af1397eb3ae7424c55fe5de14df",
+      "release_sha256": "04d34bc8016b2e98d6bf15ef4dd4242ad3082af1397eb3ae7424c55fe5de14df",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:04d34bc8016b2e98d6bf15ef4dd4242ad3082af1397eb3ae7424c55fe5de14df"
+    },
+    {
+      "path": "thesis_figures/source_data/dataset_report.json",
+      "source_sha256": "812bffb690754bfcbc939a1dd41a49c4bda09feb653d223f67793bd1f317de1f",
+      "release_sha256": "812bffb690754bfcbc939a1dd41a49c4bda09feb653d223f67793bd1f317de1f",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:812bffb690754bfcbc939a1dd41a49c4bda09feb653d223f67793bd1f317de1f"
+    },
+    {
+      "path": "thesis_figures/source_data/domain_classifier.csv",
+      "source_sha256": "4ddf25daac324d27ced1741cf25ac6b0e1f2feecb2e9d739de524074b68d989a",
+      "release_sha256": "4ddf25daac324d27ced1741cf25ac6b0e1f2feecb2e9d739de524074b68d989a",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:4ddf25daac324d27ced1741cf25ac6b0e1f2feecb2e9d739de524074b68d989a"
+    },
+    {
+      "path": "thesis_figures/source_data/domain_support.csv",
+      "source_sha256": "e8c323c9e2f04e5f8597f0f2fccd76592f8010a1d42530b90e538d519c4af093",
+      "release_sha256": "e8c323c9e2f04e5f8597f0f2fccd76592f8010a1d42530b90e538d519c4af093",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:e8c323c9e2f04e5f8597f0f2fccd76592f8010a1d42530b90e538d519c4af093"
+    },
+    {
+      "path": "thesis_figures/source_data/final_metrics.csv",
+      "source_sha256": "e212e570a95ace639bb04ba7359b28f39d98ad158d3ff3f84e7e07ad79c4b85b",
+      "release_sha256": "e212e570a95ace639bb04ba7359b28f39d98ad158d3ff3f84e7e07ad79c4b85b",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:e212e570a95ace639bb04ba7359b28f39d98ad158d3ff3f84e7e07ad79c4b85b"
+    },
+    {
+      "path": "thesis_figures/source_data/final_metrics_by_receiver.csv",
+      "source_sha256": "c07693b42b70e7da4434f1f11e6ca0ae58b09a95393afa6c78af64cb8c7e0d4a",
+      "release_sha256": "c07693b42b70e7da4434f1f11e6ca0ae58b09a95393afa6c78af64cb8c7e0d4a",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:c07693b42b70e7da4434f1f11e6ca0ae58b09a95393afa6c78af64cb8c7e0d4a"
+    },
+    {
+      "path": "thesis_figures/source_data/final_predictions.csv",
+      "source_sha256": "a6aaf6772db58bc637684a5ad063fc487eae053a9412f25a0cda90f4d0a64f51",
+      "release_sha256": "a6aaf6772db58bc637684a5ad063fc487eae053a9412f25a0cda90f4d0a64f51",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:a6aaf6772db58bc637684a5ad063fc487eae053a9412f25a0cda90f4d0a64f51"
+    },
+    {
+      "path": "thesis_figures/source_data/manifest.json",
+      "source_sha256": "ae47517b7e84b5b2a6b6f11672954849340d0776a9cbaddd2943b9925627a72d",
+      "release_sha256": "104d5bb6d07d42ec164f644297e0c496b9331510e23d3ccc686913abd3d28991",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "source_id": "sha256:ae47517b7e84b5b2a6b6f11672954849340d0776a9cbaddd2943b9925627a72d"
+    },
+    {
+      "path": "thesis_figures/source_data/selective_curve.csv",
+      "source_sha256": "a98a07fa801e2c8353a1ec790691a8f05faa577d6bdb4aa16538ccd8a967b29c",
+      "release_sha256": "a98a07fa801e2c8353a1ec790691a8f05faa577d6bdb4aa16538ccd8a967b29c",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:a98a07fa801e2c8353a1ec790691a8f05faa577d6bdb4aa16538ccd8a967b29c"
+    },
+    {
+      "path": "thesis_figures/source_data/transfer_bootstrap.csv",
+      "source_sha256": "2a3235826b28aaa05af22ccf313e29ea25b2530da1a41510c05e0d9bbd1d2734",
+      "release_sha256": "2a3235826b28aaa05af22ccf313e29ea25b2530da1a41510c05e0d9bbd1d2734",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:2a3235826b28aaa05af22ccf313e29ea25b2530da1a41510c05e0d9bbd1d2734"
+    },
+    {
+      "path": "thesis_figures/source_data/transfer_fold_means.csv",
+      "source_sha256": "ff0efefa844f8590b02b4c07099f35696d1cf0e8384e7b51c462ecd801563a3f",
+      "release_sha256": "ff0efefa844f8590b02b4c07099f35696d1cf0e8384e7b51c462ecd801563a3f",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:ff0efefa844f8590b02b4c07099f35696d1cf0e8384e7b51c462ecd801563a3f"
+    },
+    {
+      "path": "thesis_figures/source_data/transfer_runs.csv",
+      "source_sha256": "65998a56d3c4d7aa23248ca9e7b641d9fa9810e83753a40e905c7e7ddc0d2300",
+      "release_sha256": "65998a56d3c4d7aa23248ca9e7b641d9fa9810e83753a40e905c7e7ddc0d2300",
+      "operation": "byte-for-byte copy",
+      "source_id": "sha256:65998a56d3c4d7aa23248ca9e7b641d9fa9810e83753a40e905c7e7ddc0d2300"
+    }
+  ],
+  "naming": "AIMS is the final public system name. Original source identities are retained by SHA-256; source filenames are omitted. Renaming does not alter numerical data."
+}

@@ -1,0 +1,9 @@
+feature_set,classifier,AUC
+Full reference,Logistic regression,1.000000
+Full reference,Random Forest,1.000000
+Thermal level only,Logistic regression,0.943829
+Thermal level only,Random Forest,0.970449
+Centered thermal shape,Logistic regression,0.806022
+Centered thermal shape,Random Forest,0.957633
+Without IQR and elevation,Logistic regression,0.942027
+Without IQR and elevation,Random Forest,0.981636

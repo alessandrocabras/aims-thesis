@@ -1,0 +1,67 @@
+{
+  "figure_count": 13,
+  "formats": [
+    "pdf",
+    "png"
+  ],
+  "png_dpi": 300,
+  "source_manifest_sha256": "104d5bb6d07d42ec164f644297e0c496b9331510e23d3ccc686913abd3d28991",
+  "matplotlib_version": "3.11.1",
+  "numpy_version": "2.4.6",
+  "no_training_or_inference": true,
+  "checks": "All source hashes, split/target alignment and saved metrics passed",
+  "figures": {
+    "01_target_coordinate_audit": {
+      "pdf": "74437b08d8d22a652398caec7e7f2f39599c888760e5cbfe3d44ed6f29729837",
+      "png": "76941b4444f35fb77ad5a849d4e8cf1d8bba1e4c548b02cfa5697137331a8622"
+    },
+    "02_final_data_pipeline": {
+      "pdf": "fc0f219f582a453b44a4931c42394d31c93e9a4024cc77162a65cca727292f70",
+      "png": "9a152d94c009d447014200e018571f2ba85fa1c658798311e6cb4a9b33ecadc7"
+    },
+    "13_dataset_timeline": {
+      "pdf": "24a2022879bd83509fb4ab51767ec8c02c55180ec9de9e17b76a05f00ff21551",
+      "png": "14149ea70ddbc0dec98661b41127663d8b79ef69a5c308fdcbfc7a90104b3687"
+    },
+    "14_temporal_evaluation_design": {
+      "pdf": "872c74da415a693d79b4c68c9bbc13090e20c8b51f4d5f444f240fab71d110de",
+      "png": "2081c5b4c95eb06efe17082d5dbc0e45e4411cc7b5495f6b8615bc7dd87672bf"
+    },
+    "10_fem_real_thermal_shift": {
+      "pdf": "69d19aa1b71de6bb7d97a3ad3d659578a18e68c15066c289f8150edb7eff557d",
+      "png": "269e30ed8079fa25b4daa394e3d324f51bf11d3e2a241f73e37283aff33ac30a"
+    },
+    "04_final_prediction_pipeline_parallel": {
+      "pdf": "1302264bf2b4861f28d413679670a56a06c5fd2a12680c5bda4b231374718dab",
+      "png": "77c2b2dcb261a7fae6cb70446e2b2ea1506db9e15068903eb3823a29513ab3f8"
+    },
+    "15_matched_transfer_protocol": {
+      "pdf": "4e0e756d0a360bf5c19184338ab58dee193fb926c5cbb4f6a77c418d19dca818",
+      "png": "410f5e38fa903f807f1b367cd6a9310da24fc49397b94e04cc9d42579207d89a"
+    },
+    "16_fem_transfer_controls": {
+      "pdf": "898f5c40dbb43968afb9eaa8c83b8bb71ffdb98bfb0f33a51a2feaa7972d89fa",
+      "png": "97388e067c0bdeadc5265f088fdb40461d26651f323a0a266da084a3cf21a1c9"
+    },
+    "17_observed_vs_predicted": {
+      "pdf": "189d0be3ca2b1bdf2c2c4a69d2cbcfcb875192847c61cd2d0c6e5f8f9d6b3ad6",
+      "png": "2f9d929bd25f6a5ed4fc09a71776109f3f786dbf1e1fb0213acf2ca4c9875bc2"
+    },
+    "18_absolute_error_ecdf": {
+      "pdf": "fbf706d2d09dbc695969a5597b15a84845a7491a5ab8ed5ef838d0d531e9b2d0",
+      "png": "4ae18d2bfab1084c74cbfeb44ab74d14ac059ee58b2499203800c1978d0b499d"
+    },
+    "09_el_residual_vs_elevation": {
+      "pdf": "0c9685c94eb61afd1a4af6f60e3bc02af1d51e1903109d6be45608cadcf08c45",
+      "png": "1d830bcc465475aedc2e55d4103fb39c570f4ee827fce262377ae476ce1cd30a"
+    },
+    "07_mae_by_receiver": {
+      "pdf": "960807963e292876543475c3015a7f11f1f3a31cd5cc04caa41638eff6c33bcc",
+      "png": "7364f5a446a5243043dfb9887a9e307df09fed23ade3891eb47a35a2e1509b9b"
+    },
+    "12_selective_confidence_curve": {
+      "pdf": "c9cc0408d75b35dff9afc6bd09754d9f87f980249eea08992682a18b3bdb5d8c",
+      "png": "668e5533edb86a251cc384ae7f60ca3008f042f3ad00696ad5c7f0c2a0afd698"
+    }
+  }
+}

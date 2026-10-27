@@ -1,0 +1,8 @@
+model,coverage_percent,MAE,within_5_percent,p90_abs_error,selection
+Calibrated expert stack,25.185185,3.518915,79.411765,6.220069,quantile
+Calibrated expert stack,40.740741,3.916006,69.090909,7.360858,validation-selected
+Calibrated expert stack,50.370370,4.578258,61.764706,9.922357,quantile
+Calibrated expert stack,70.370370,4.831347,61.052632,10.278646,quantile
+Calibrated expert stack,80.000000,5.030614,57.407407,10.377541,quantile
+Calibrated expert stack,90.370370,4.706441,61.475410,10.253044,quantile
+Calibrated expert stack,100.000000,4.764360,60.000000,10.278646,quantile

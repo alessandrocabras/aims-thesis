@@ -1,0 +1,23 @@
+{
+  "rows": 668,
+  "columns": 51,
+  "split_counts": {
+    "train": 400,
+    "test": 135,
+    "validation": 133
+  },
+  "receiver_counts": {
+    "K": 499,
+    "C_high": 96,
+    "C_low": 72,
+    "Q": 1
+  },
+  "skip_counts": {
+    "too_early": 0,
+    "missing_grid": 0,
+    "nan": 0,
+    "thermal_jump": 197
+  },
+  "timestamp_min": "2023-10-23 13:23:37.650000",
+  "timestamp_max": "2025-08-27 09:23:55.910000"
+}

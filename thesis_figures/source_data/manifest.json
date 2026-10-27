@@ -1,0 +1,77 @@
+{
+  "description": "Frozen plotting inputs; not a new model evaluation",
+  "originals": {
+    "final_predictions.csv": {
+      "path": "outputs/tables/final_predictions.csv",
+      "sha256": "a6aaf6772db58bc637684a5ad063fc487eae053a9412f25a0cda90f4d0a64f51"
+    },
+    "final_metrics.csv": {
+      "path": "outputs/tables/final_metrics.csv",
+      "sha256": "e212e570a95ace639bb04ba7359b28f39d98ad158d3ff3f84e7e07ad79c4b85b"
+    },
+    "final_metrics_by_receiver.csv": {
+      "path": "outputs/tables/final_metrics_by_receiver.csv",
+      "sha256": "c07693b42b70e7da4434f1f11e6ca0ae58b09a95393afa6c78af64cb8c7e0d4a"
+    },
+    "dataset_report.json": {
+      "path": "data/processed/aims_clean_features_report.json",
+      "sha256": "812bffb690754bfcbc939a1dd41a49c4bda09feb653d223f67793bd1f317de1f"
+    },
+    "domain_classifier.csv": {
+      "path": "deliverables/paper_figures/figure_sources/domain_shift_classifier_summary.csv",
+      "sha256": "4ddf25daac324d27ced1741cf25ac6b0e1f2feecb2e9d739de524074b68d989a"
+    },
+    "domain_support.csv": {
+      "path": "deliverables/paper_figures/figure_sources/domain_shift_support_summary.csv",
+      "sha256": "e8c323c9e2f04e5f8597f0f2fccd76592f8010a1d42530b90e538d519c4af093"
+    },
+    "transfer_runs.csv": {
+      "path": "deliverables/paper_figures/figure_sources/nested_fold_seed_metrics_saved.csv",
+      "sha256": "65998a56d3c4d7aa23248ca9e7b641d9fa9810e83753a40e905c7e7ddc0d2300"
+    },
+    "transfer_fold_means.csv": {
+      "path": "deliverables/paper_figures/figure_sources/fold_means.csv",
+      "sha256": "ff0efefa844f8590b02b4c07099f35696d1cf0e8384e7b51c462ecd801563a3f"
+    },
+    "transfer_bootstrap.csv": {
+      "path": "deliverables/paper_figures/figure_sources/bootstrap_contrasts_saved.csv",
+      "sha256": "2a3235826b28aaa05af22ccf313e29ea25b2530da1a41510c05e0d9bbd1d2734"
+    },
+    "selective_curve.csv": {
+      "path": "data/diagnostics/control/true_xel_selective_disagreement_thesis.csv",
+      "sha256": "a98a07fa801e2c8353a1ec790691a8f05faa577d6bdb4aa16538ccd8a967b29c"
+    },
+    "dataset_events.csv": {
+      "path": "data/processed/aims_clean_features.csv",
+      "sha256": "d77e5b4b5e425fce8e56de1d1efc4e7164d8eb4a7c1b16b890fe8725f4b3e5c0",
+      "projection": [
+        "Timestamp",
+        "Split",
+        "Elevation",
+        "Azimuth",
+        "ReceiverCode",
+        "ReceiverBand",
+        "target_XEL_arcsec",
+        "target_EL_arcsec"
+      ]
+    }
+  },
+  "files": {
+    "final_predictions.csv": "a6aaf6772db58bc637684a5ad063fc487eae053a9412f25a0cda90f4d0a64f51",
+    "final_metrics.csv": "e212e570a95ace639bb04ba7359b28f39d98ad158d3ff3f84e7e07ad79c4b85b",
+    "final_metrics_by_receiver.csv": "c07693b42b70e7da4434f1f11e6ca0ae58b09a95393afa6c78af64cb8c7e0d4a",
+    "dataset_report.json": "812bffb690754bfcbc939a1dd41a49c4bda09feb653d223f67793bd1f317de1f",
+    "domain_classifier.csv": "4ddf25daac324d27ced1741cf25ac6b0e1f2feecb2e9d739de524074b68d989a",
+    "domain_support.csv": "e8c323c9e2f04e5f8597f0f2fccd76592f8010a1d42530b90e538d519c4af093",
+    "transfer_runs.csv": "65998a56d3c4d7aa23248ca9e7b641d9fa9810e83753a40e905c7e7ddc0d2300",
+    "transfer_fold_means.csv": "ff0efefa844f8590b02b4c07099f35696d1cf0e8384e7b51c462ecd801563a3f",
+    "transfer_bootstrap.csv": "2a3235826b28aaa05af22ccf313e29ea25b2530da1a41510c05e0d9bbd1d2734",
+    "selective_curve.csv": "a98a07fa801e2c8353a1ec790691a8f05faa577d6bdb4aa16538ccd8a967b29c",
+    "dataset_events.csv": "04d34bc8016b2e98d6bf15ef4dd4242ad3082af1397eb3ae7424c55fe5de14df"
+  },
+  "notes": [
+    "Transfer summaries are saved six-decimal notebook-41 outputs, not raw predictions.",
+    "Bootstrap intervals are imported, not recomputed from summary tables.",
+    "Structural diagrams follow the revised chapter and local pipeline implementation."
+  ]
+}

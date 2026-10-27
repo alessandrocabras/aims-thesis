@@ -1,0 +1,4 @@
+comparison,candidate,reference,delta_MAE,ci95_low,ci95_high,favourable_resamples_percent
+F2A - F1A,F2A,F1A,-0.133388,-0.554601,0.290898,72.12
+F2A - Ridge,F2A,production_Ridge,1.216782,0.134021,2.425052,1.54
+Ridge + F1A residual - Ridge,residual_F1A,production_Ridge,-0.124475,-0.339333,0.043706,87.76

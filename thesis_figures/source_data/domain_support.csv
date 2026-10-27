@@ -1,0 +1,4 @@
+feature_set,within_fem_p95_percent,within_fem_p99_percent
+Thermal without IQR,1.347305,5.988024
+Thermal level only,1.497006,9.281437
+Centered thermal shape,12.874251,28.443114
