@@ -1,8 +1,4 @@
-"""Cross-check SRT pointing results against control-system and calibration logs.
-
-The script intentionally uses only the Python standard library so it can run on
-the local workstation as well as on the Linux analysis machine.
-"""
+"""Cross-check pointing results against control and calibration logs."""
 
 from __future__ import annotations
 
@@ -397,8 +393,8 @@ def main():
         nonzero_times_by_key,
     ) = build_reset_events(command_events)
     print(
-        f"Logs validi={len(log_records)} | comandi={len(command_events)} | "
-        f"reset tripli={len(reset_events)} | receiver setup={len(receiver_events)}"
+        f"Valid logs={len(log_records)} | commands={len(command_events)} | "
+        f"three-command resets={len(reset_events)} | receiver setup={len(receiver_events)}"
     )
 
     print(f"Parsing calibration data: {args.dat.resolve()}")
@@ -673,12 +669,12 @@ def main():
         and float(r["previous_scan_gap_minutes"]) <= 180
         and not r["complete_reset_between_previous_scan"]
     ]
-    print("\n=== COPERTURA ===")
+    print('\n=== COVERAGE ===')
     print(f"Pointing master: {len(output_rows)}")
     print(f"DAT matched: {len(matched)} ({100*len(matched)/len(output_rows):.1f}%)")
-    print(f"Log entro 15 min: {len(covered)} ({100*len(covered)/len(output_rows):.1f}%)")
-    print(f"Reset completo tra scan consecutivi: {len(reset_known)}")
-    print(f"Scan <=3h senza reset completo osservato: {len(no_reset_near)}")
+    print(f"Logs within 15 min: {len(covered)} ({100*len(covered)/len(output_rows):.1f}%)")
+    print(f"Complete resets between consecutive scans: {len(reset_known)}")
+    print(f"Scans within 3h without an observed complete reset: {len(no_reset_near)}")
     print("Receiver setup:", dict(receiver_setup_counts.most_common()))
     print("Receiver class master:", dict(Counter(r["receiver_class"] for r in output_rows)))
     print("Fit flag 1:", dict(Counter(r["dat_fit_flag_1"] for r in matched)))
@@ -689,7 +685,7 @@ def main():
         max_dlon = max(abs(float(r["dat_lon_delta_arcsec"])) for r in matched if r["dat_lon_delta_arcsec"] != "")
         max_de = max(abs(float(r["dat_el_delta_arcsec"])) for r in matched if r["dat_el_delta_arcsec"] != "")
         print(
-            f"Coerenza DAT/master: max |dXEL|={max_dx:.6g}, "
+            f"DAT/master agreement: max |dXEL|={max_dx:.6g}, "
             f"max |dLon|={max_dlon:.6g}, max |dEL|={max_de:.6g}"
         )
 
@@ -708,8 +704,8 @@ def main():
         ]
         max_master_delta = max(master_deltas) if master_deltas else math.nan
         max_projection_delta = max(projection_deltas) if projection_deltas else math.nan
-        print("\n=== TARGET EFFECTIVE DATASET ===")
-        print(f"Target validi: {len(effective_audit)}")
+        print('\n=== EFFECTIVE-DATASET TARGETS ===')
+        print(f"Valid targets: {len(effective_audit)}")
         print(
             f"Stored (lon): median |y|={median(stored_abs):.3f}, "
             f"p90={quantile(stored_abs, 0.9):.3f}, |y|>15={100*sum(v>15 for v in stored_abs)/len(stored_abs):.1f}%"

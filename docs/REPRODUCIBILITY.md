@@ -77,3 +77,10 @@ These are naming-only changes: feature values, targets, saved predictions and
 model settings are unchanged. `docs/source_manifest.json` retains the original
 source SHA-256 identities and the current release hashes; original source
 filenames are omitted to keep the public naming consistent.
+
+Code comments are limited to non-obvious conventions and evaluation safeguards.
+Comments, docstrings and generated messages use English, including the
+experimental notebook code. Historical narrative Markdown is retained.
+Original input-column names and file formats remain unchanged. Language-only
+edits are recorded in the source manifest; numerical reference files are not
+rewritten.

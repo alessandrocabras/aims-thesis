@@ -227,7 +227,7 @@ def train_and_evaluate(dataset_path: Path = DATASET_PATH) -> dict:
     predictions.to_csv(TABLE_DIR / "final_predictions.csv", index=False)
     save_thesis_plots(data, test_predictions, receiver_metrics)
 
-    # Deployment models are refitted on every available clean sample after the holdout report is frozen.
+    # All-event deployment refits are separate from the reported 400-event evaluation fits.
     deployment_xel = xel_model().fit(data[feature_columns], data["target_XEL_arcsec"])
     deployment_el = el_model().fit(data[feature_columns], data["target_EL_arcsec"])
     joblib.dump({

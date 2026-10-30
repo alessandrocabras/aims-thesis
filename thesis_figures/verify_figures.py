@@ -1,7 +1,4 @@
-"""Render the generated PDFs and check their structural and numerical integrity.
-
-Optional QA dependencies: PyMuPDF and Pillow. Rendering never changes sources.
-"""
+"""Render PDFs and check hashes, page bounds and nonblank output; requires PyMuPDF and Pillow."""
 from pathlib import Path
 import hashlib
 import json

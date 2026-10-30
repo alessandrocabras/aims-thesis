@@ -1,9 +1,4 @@
-"""Render all 13 thesis figures from frozen outputs; no training or inference.
-
-First run snapshots the required project tables into source_data/. Subsequent
-runs use those snapshots and verify their hashes. Only --refresh-sources
-replaces snapshots with the current project exports.
-"""
+"""Render 13 thesis figures from verified frozen snapshots; --refresh-sources replaces the snapshots."""
 from __future__ import annotations
 
 import argparse
@@ -308,7 +303,7 @@ def draw_temporal():
         ax.text(x, 4.775, label, ha="center", va="center", fontsize=8)
     for fold, n in enumerate([266, 355, 444], 1):
         y = 4.0 - fold
-        # Display the proportional inner split schematically; audited outer counts are exact.
+        # Inner splits are schematic; audited outer counts are exact.
         cut = n * .8
         ax.broken_barh([(0, cut)], (y, .55), facecolors=palette["train"], edgecolors="white")
         ax.broken_barh([(cut, n-cut)], (y, .55), facecolors=palette["inner"], edgecolors="white")

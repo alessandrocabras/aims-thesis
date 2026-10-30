@@ -2,8 +2,10 @@
 
 Read the short reviewer notebook first. The development notebooks below
 are preserved for inspection, with outputs, execution counts and nonessential
-metadata removed. The original cells mostly retain Italian commentary;
-system names and imports have been updated to AIMS. A preserved result or wording is not endorsed
+metadata removed. Historical narrative Markdown is retained in Italian;
+code comments, docstrings, diagnostic messages and plot labels are in English.
+Redundant code comments have been removed. System names and imports use AIMS.
+A preserved result or wording is not endorsed
 as the final methodological conclusion; see `METHODOLOGY.md`.
 
 | Notebook | Purpose | Required external inputs |

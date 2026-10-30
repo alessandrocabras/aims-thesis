@@ -27,8 +27,8 @@
     {
       "path": "src/aims_training.py",
       "source_sha256": "28d61db3b967b4aa38ebf5af6c0ec3490fd519a74d215bfdfc636c350661c0f4",
-      "release_sha256": "7f687f98dea36ada4cb86ff51f78fe762aa8c66411d5384215ebdcf657272d88",
-      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "release_sha256": "fb8c3fe0e1460b0f307451a889ac5e2208e9ec32fd61e05d6f0ba9f7896741a6",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update; minimal English code comments and human-facing messages",
       "source_id": "sha256:28d61db3b967b4aa38ebf5af6c0ec3490fd519a74d215bfdfc636c350661c0f4"
     },
     {
@@ -41,8 +41,8 @@
     {
       "path": "scripts/audit/audit_control_crossscan.py",
       "source_sha256": "f1ee9b9ebd8d3e2777f22f947e98e42dacbefc65650be62f2d00ad74712f1535",
-      "release_sha256": "f1ee9b9ebd8d3e2777f22f947e98e42dacbefc65650be62f2d00ad74712f1535",
-      "operation": "byte-for-byte copy",
+      "release_sha256": "7b108d7ee937f79d75391dcebd322c02f817df11d39c6cee6ce58256852f2572",
+      "operation": "byte-for-byte copy; minimal English code comments and human-facing messages",
       "source_id": "sha256:f1ee9b9ebd8d3e2777f22f947e98e42dacbefc65650be62f2d00ad74712f1535"
     },
     {
@@ -104,57 +104,57 @@
     {
       "path": "notebooks/experiments/10_real_data_baselines_and_diagnostics.ipynb",
       "source_sha256": "97018ddb68ce32f33c47bc788afc8cb921dbe239f2dc2b25c0a88fc902ed4e21",
-      "release_sha256": "d3a2d7ee031de60c2be416cf4595547f63098c35a3bd7ce69df66310b208b46d",
-      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update",
+      "release_sha256": "d72cdf687b63c03ebe8320422d9791d6734469171808853e83b7cbb15a947e50",
+      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update; minimal English code comments and human-facing messages",
       "source_id": "sha256:97018ddb68ce32f33c47bc788afc8cb921dbe239f2dc2b25c0a88fc902ed4e21"
     },
     {
       "path": "notebooks/experiments/20_fem_real_calibration_and_domain_shift.ipynb",
       "source_sha256": "61b4a12174b830357e0fb96e1d12d3323194ab9629ab34565f5ded68e48c69a5",
-      "release_sha256": "09ff130ffa7537f7f3b2ab76ec74266715ac4d415ebcbc5fbb8135b390178e5a",
-      "operation": "strip notebook outputs/metadata and annotate",
+      "release_sha256": "6276bfecdacce5bbd5373669e0c73e9e71cd5ea7744fd8086dcb0434c82b7539",
+      "operation": "strip notebook outputs/metadata and annotate; minimal English code comments and human-facing messages",
       "source_id": "sha256:61b4a12174b830357e0fb96e1d12d3323194ab9629ab34565f5ded68e48c69a5"
     },
     {
       "path": "notebooks/experiments/30_control_logs_true_xel_and_receiver_audit.ipynb",
       "source_sha256": "ccb7e8561d304e8b45ecd25c75a1328ab0007cabcfefe028b648420b2f045ad5",
-      "release_sha256": "cafc915c962552d3fcf7347c329a0d53d54766e087327ffaacbaac15fb057007",
-      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update",
+      "release_sha256": "a7edecb2904dd047410e30f117a0eab65f82bfac32a7cd3d2a636372281c922b",
+      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update; minimal English code comments and human-facing messages",
       "source_id": "sha256:ccb7e8561d304e8b45ecd25c75a1328ab0007cabcfefe028b648420b2f045ad5"
     },
     {
       "path": "notebooks/experiments/40_fem_transfer_and_real_ssl.ipynb",
       "source_sha256": "e3ea95a16bff497c0789bd232a881d7a1bdb8f8023785383de4d84b9cd699aca",
-      "release_sha256": "c67996331dc28998a1facbaa65aad21c837201c4be88323ec6a2f45d84c4a362",
-      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update",
+      "release_sha256": "7b10a040ae0a7ce3e3428dcd5b52779f00e074338fa7ac0c6f563f7ddef5217c",
+      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update; minimal English code comments and human-facing messages",
       "source_id": "sha256:e3ea95a16bff497c0789bd232a881d7a1bdb8f8023785383de4d84b9cd699aca"
     },
     {
       "path": "notebooks/experiments/41_fem_v2_nested_cv_controls.ipynb",
       "source_sha256": "2417a224cea45e20a4ac090ba76fdb47ee5fd799c44baa6c0910675ea72e8499",
-      "release_sha256": "12ff0498bdce61c237c3c75aa2f7b761bb435e2fc56dc6fce7944c603eedcf99",
-      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update",
+      "release_sha256": "575593977b1a01a770903367a106faecd6fcc5ba545f6e50f3e2d7bfa492aa14",
+      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update; minimal English code comments and human-facing messages",
       "source_id": "sha256:2417a224cea45e20a4ac090ba76fdb47ee5fd799c44baa6c0910675ea72e8499"
     },
     {
       "path": "notebooks/restricted/00_prepare_final_dataset.ipynb",
       "source_sha256": "59e1c8c2036b01f9ffc478e6297f84e8fa3e29d487a22c35f48055a46f29da80",
-      "release_sha256": "48c8baa620c1f7dcee4514c111f17bc64a94ed1f087f427e25d96b6bfec62f12",
-      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update",
+      "release_sha256": "427da7c3e10fa1099711d73d94629d69a6c7117a7a923fe2a4b82d0f0ebee6e3",
+      "operation": "strip notebook outputs/metadata and annotate; public AIMS naming and dependent provenance update; minimal English code comments and human-facing messages",
       "source_id": "sha256:59e1c8c2036b01f9ffc478e6297f84e8fa3e29d487a22c35f48055a46f29da80"
     },
     {
       "path": "thesis_figures/make_thesis_figures.py",
       "source_sha256": "93d269a44aea9ed3a7b6cd76220498513f5d48490210023e15a835f95a2c8453",
-      "release_sha256": "ca743eba351f3e87d1bee4d302befd65d23b250ec0a49207c2e971fb764fa5f2",
-      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update",
+      "release_sha256": "4de72852a538fb26398477b0d33dc744f02190ee659c6afd1299bf71674d54d7",
+      "operation": "byte-for-byte copy; public AIMS naming and dependent provenance update; minimal English code comments and human-facing messages",
       "source_id": "sha256:93d269a44aea9ed3a7b6cd76220498513f5d48490210023e15a835f95a2c8453"
     },
     {
       "path": "thesis_figures/verify_figures.py",
       "source_sha256": "3d037b010debd4a79914505ba2700808d39ad2de6353e2d9fa2d688ef8647865",
-      "release_sha256": "3d037b010debd4a79914505ba2700808d39ad2de6353e2d9fa2d688ef8647865",
-      "operation": "byte-for-byte copy",
+      "release_sha256": "7b9749d664519d4879507a251c5ef9177ad0c66956eda68ba700d37a7e26984d",
+      "operation": "byte-for-byte copy; minimal English code comments and human-facing messages",
       "source_id": "sha256:3d037b010debd4a79914505ba2700808d39ad2de6353e2d9fa2d688ef8647865"
     },
     {
@@ -167,8 +167,8 @@
     {
       "path": "thesis_figures/00_generate_thesis_figures.ipynb",
       "source_sha256": "e08a562015c914f51c51d76ecf5540869362df33c92d71bea8e34b3d864cd12f",
-      "release_sha256": "f866de4a543fa0444e7f00fdeb86cfeb4460bf92ab230a9f646430cbb143b2e9",
-      "operation": "strip notebook outputs/metadata and annotate",
+      "release_sha256": "2b304fdf42af86d8d7f79ca57132b64b5d1cbc84d0718c1ae508c2bb4926cdf4",
+      "operation": "strip notebook outputs/metadata and annotate; minimal English code comments and human-facing messages",
       "source_id": "sha256:e08a562015c914f51c51d76ecf5540869362df33c92d71bea8e34b3d864cd12f"
     },
     {
